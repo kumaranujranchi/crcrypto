@@ -11,7 +11,6 @@ export const Headerdata: HeaderItem[] = [
   { label: "Features", href: "/#features-section" },
   { label: "FAQ", href: "/#faq-section" },
   { label: "Contact Us", href: "/#contact" },
-  { label: "Docs", href: "/documentation" },
 ];
 
 const basePath = process.env.NODE_ENV === "production" ? "/crypto-nextjs" : "";
